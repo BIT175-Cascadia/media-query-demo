@@ -1,0 +1,33 @@
+body,h1{padding:0;margin:0;}
+h2{
+    font-size 1.3em; 
+    padding-left:.5em;
+} 
+h2,p{ display: inline-block; }
+nav>a{
+    display:none;
+    width:100px;
+}
+section {
+    display:inline-block;
+    width:100%;
+    min-width:400px;
+    min-height: 600px;
+    background-image: url(../_images/spring-light.jpg);
+        background-size: cover;}
+
+@media screen and (min-width:600px){
+       h2,p{display:block;} 
+}
+
+    
+/* season module - tablet */
+@media screen and (min-width:800px){
+
+    section{
+        min-width:800px;
+        min-height:800px;
+        background-image:url(../_images/spring-heavy.jpg);
+        background-size: cover;
+    }
+}
